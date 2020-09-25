@@ -1,13 +1,18 @@
 {
   "name": "colortaker",
   "version": "1.0.0",
-  "author": "pabrodez",
+  "author": {
+    "name": "Pablo M. Rodriguez",
+    "email": "pabrodez@gmail.com",
+    "url": "https://github.com/pabrodez"
+  },
   "description": "Take a picture and creates a color palette with a number of given colors",
   "keywords": [
     "color",
     "palette",
     "image",
-    "extract"
+    "extract",
+    "picture"
   ],
   "main": "src/index.js",
   "repository": {
@@ -24,6 +29,5 @@
   },
   "engines": {
     "node": ">=12.12.0"
-  },
-  "private": "false"
+  }
 }
