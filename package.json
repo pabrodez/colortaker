@@ -1,6 +1,6 @@
 {
   "name": "colortaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Pablo M. Rodriguez",
     "email": "pabrodez@gmail.com",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "getPalette": "node ./src/cli.js"
-  },  
+  },
   "license": "MIT",
   "dependencies": {
     "jimp": "^0.16.1",
