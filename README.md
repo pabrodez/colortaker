@@ -19,7 +19,7 @@ Take an image and print a palette with the most prominent colors.
 
 ### Install and use the command line
 ```bash 
-git clone
+git clone https://github.com/pabrodez/colortaker
 cd colortake
 npm install
 ```
