@@ -11,8 +11,8 @@ Take an image and print a palette with the most prominent colors.
 </thead>
 <tbody>
 <tr>
-<td style="width: 40%;" align="center"><a target="_blank" rel="noopener noreferrer" href="/pabrodez/colortaker/blob/master/guitar.jpg"><img src="/pabrodez/colortaker/raw/master/guitar.jpg" alt="guitar" style="max-width:100%;" width="30%"></a></td>
-<td style="width: 40%;" align="center"><a target="_blank" rel="noopener noreferrer" href="/pabrodez/colortaker/blob/master/palette.png"><img src="/pabrodez/colortaker/raw/master/palette.png" alt="palette" style="max-width:100%;" width="40%"></a></td>
+<td style="width: 40%;" align="center"><img src="./guitar.jpg" alt="guitar" style="max-width:100%;" width="30%"></td>
+<td style="width: 40%;" align="center"><img src="./palette.png" alt="palette" style="max-width:100%;" width="40%"></td>
 </tr>
 </tbody>
 </table>
