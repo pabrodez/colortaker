@@ -13,6 +13,9 @@ Take an image and print a palette with the most prominent colors.
 <tr>
 <td style="width: 40%;" align="center"><a target="_blank" rel="noopener noreferrer" href="/pabrodez/colortaker/blob/master/guitar.jpg"><img src="/pabrodez/colortaker/raw/master/guitar.jpg" alt="guitar" style="max-width:100%;" width="30%"></a></td>
 <td style="width: 40%;" align="center"><a target="_blank" rel="noopener noreferrer" href="/pabrodez/colortaker/blob/master/palette.png"><img src="/pabrodez/colortaker/raw/master/palette.png" alt="palette" style="max-width:100%;" width="40%"></a></td>
+</tr>
+</tbody>
+</table>
 
 ### Install and use the command line
 ```bash 
@@ -41,7 +44,7 @@ printPalette('guitar.jpg', 4, 'palette.png')
 ```
 
 ### The [Median cut](https://en.wikipedia.org/wiki/Median_cut) algorithm was implemented as follows:
-1. Take an array of arrays containing RGB of each pixel ([[red, blue, green], [red, blue, green], etc])
+1. Take an array of objects containing RGB of each pixel
 2. Find the range of values for each of the three color channel accross pixels in the array
 3. Take the channel with largest range
 4. Find the median value for that channel
