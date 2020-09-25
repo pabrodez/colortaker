@@ -1,0 +1,21 @@
+{
+  "name": "imagepalette",
+  "version": "1.0.0",
+  "description": "Take a picture and creates a color palette with a number of given colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getPalette": "node ./src/cli.js"
+  },
+  "keywords": [],
+  "author": "pabrodez",
+  "license": "MIT",
+  "devDependencies": {
+    "jimp": "^0.16.1",
+    "lodash": "^4.17.20"
+  },
+  "engines": {
+    "node": ">=12.12.0"
+  },
+  "private": "false"
+}
