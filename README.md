@@ -1,9 +1,18 @@
 # 🎨 colortaker 🖼️ ➡️ 🖌️🎨
 
 Take an image and print a palette with the most prominent colors.
-| Image | Palette |
-| :--- | :--- |
-|<img src="./guitar.jpg" alt="guitar" width="30%">|<img src="./palette.png" alt="palette" width="40%">|
+
+<table>
+<thead>
+<tr>
+<th align="center">Image</th>
+<th align="center">Palette</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 40%;" align="center"><a target="_blank" rel="noopener noreferrer" href="/pabrodez/colortaker/blob/master/guitar.jpg"><img src="/pabrodez/colortaker/raw/master/guitar.jpg" alt="guitar" style="max-width:100%;" width="30%"></a></td>
+<td style="width: 40%;" align="center"><a target="_blank" rel="noopener noreferrer" href="/pabrodez/colortaker/blob/master/palette.png"><img src="/pabrodez/colortaker/raw/master/palette.png" alt="palette" style="max-width:100%;" width="40%"></a></td>
 
 ### Install and use the command line
 ```bash 
