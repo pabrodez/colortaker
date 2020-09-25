@@ -1,16 +1,24 @@
 {
   "name": "colortaker",
   "version": "1.0.0",
-  "description": "Take a picture and creates a color palette with a number of given colors",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "getPalette": "node ./src/cli.js"
-  },
-  "keywords": [],
   "author": "pabrodez",
+  "description": "Take a picture and creates a color palette with a number of given colors",
+  "keywords": [
+    "color",
+    "palette",
+    "image",
+    "extract"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pabrodez/colortaker.git"
+  },
+  "scripts": {
+    "getPalette": "node ./src/cli.js"
+  },  
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "jimp": "^0.16.1",
     "lodash": "^4.17.20"
   },
