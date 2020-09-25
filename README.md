@@ -2,7 +2,7 @@
 
 <br>
 
- 🖼️ ➡️ 🖌️🎨
+ #### 🖼️ ➡️ 🖌️🎨
 
  <br>
 
@@ -11,7 +11,7 @@ Take an image and print a palette with the most prominent colors.
 
 |Image|Palette|
 |:---:|:---:|
-|<img src="./guitar.jpg" width="40%">|<img src="./palette" width="40%>|
+|<img src="./guitar.jpg" width="40%">|<img src="./palette" width="40%">|
 
 ### Install and use the command line
 ```bash 
@@ -28,7 +28,7 @@ npm run getPalette --- gibson.jpg 4 palette.png
 ```
 Will give you the example palette.
 
-## Or use the module
+### Or use the module
 
 ```bash
 npm install colortaker
