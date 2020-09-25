@@ -9,13 +9,13 @@
 The number of colors desired needs to be a power of two. The number of times we are going perform a split of pixels would be = log(colors in palette) / log(2)
 
 ```bash
-npm install && npm run getPalette --- gibson.jpg 4 palette.png
+npm install colortaker && npm run getPalette --- gibson.jpg 4 palette.png
 ```
 
 ```bash
-npm install imagePalette
+npm install colortaker
 ```
 ```javascript
-const {printPalette} = require('imagePalette')
+const {printPalette} = require('colortaker')
 printPalette('guitar.jpg', 4, 'palette.png')
 ```

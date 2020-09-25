@@ -1,5 +1,5 @@
 {
-  "name": "imagepalette",
+  "name": "colortaker",
   "version": "1.0.0",
   "description": "Take a picture and creates a color palette with a number of given colors",
   "main": "index.js",
