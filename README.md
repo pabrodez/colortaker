@@ -1,17 +1,10 @@
-# 🎨 colortaker
-
-<br>
-
- #### 🖼️ ➡️ 🖌️🎨
-
- <br>
-
+# 🎨 colortaker 🖼️ ➡️ 🖌️🎨
 
 Take an image and print a palette with the most prominent colors.
 
-|Image|Palette|
-|:---:|:---:|
-|<img src="./guitar.jpg" width="40%">|<img src="./palette.png" width="40%">|
+
+![](./guitar.jpg)
+![](palette.png)
 
 ### Install and use the command line
 ```bash 
