@@ -2,8 +2,8 @@
 
 Take an image and print a palette with the most prominent colors.
 | Image | Palette |
-| :---: | :---: |
-|<img src="./guitar.jpg" alt="guitar" style="max-width:30%;">|<img src="./palette.png" alt="palette" style="max-width:30%;">|
+| :--- | :--- |
+|<img src="./guitar.jpg" alt="guitar" width="30%">|<img src="./palette.png" alt="palette" width="40%">|
 
 ### Install and use the command line
 ```bash 
