@@ -24,7 +24,7 @@ cd colortake
 npm install
 ```
 
-The command takes the arguments: path of your pic, the number of colors in the palette (remember needs to be a power of two: 2, 4, 8, ...) and the palette destination name
+The command takes the arguments: path of your pic, the number of colors in the palette and the palette destination name
 
 For example:
 ```bash
@@ -51,8 +51,6 @@ printPalette('guitar.jpg', 4, 'palette.png')
 5. Split the pixels in array in two: below the median of that channel and above it
 6. Repeat recursevily until we get N groups
 7. Get average of each group
-
-The number of colors desired needs to be a power of two. The number of times we are going perform a split of pixels would be = log(colors in palette) / log(2)
 
 ### Credits to:
  - <span>Guitar photo by <a href="https://unsplash.com/@copal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CÔPAL</a> on <a href="https://unsplash.com/s/photos/guitar-gibson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

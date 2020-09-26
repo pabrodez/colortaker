@@ -1,9 +1,21 @@
 const _ = require('lodash')
 const Jimp = require('jimp')
 const path = require('path')
+const fs = require('fs')
 const CONS = require('./constants')
 
 function printPalette(inputPath, totalColors, outputPath) {
+    if (!fs.existsSync(inputPath)) {
+        throw new Error('Input file does not exist')
+    } else if (!fs.existsSync(outputPath)) {
+        throw new Error('Output path does not exist')
+    }
+    if (!Number.isInteger(Number(totalColors)) || totalColors === undefined) {
+        throw new Error('Total colors needs to be an integer')
+    } else if (!(totalColors >= 2 && totalColors <= 20)) {
+        throw new Error('Total colors need to be between 2 and 20')
+    }
+
     Jimp.read(inputPath)
         .then(img => {
             const nSplits = Math.log(totalColors) / Math.log(2)
@@ -52,7 +64,7 @@ function createRepeatedRgbaArray(imageWidth, imageHeight, bucketsRgbAvg) {
 }
 
 function getMapOfOccurences(arr, valuesToIgnore) {
-    // takes an Array of values and returns a Map with those values as keys and values as n occurences
+    // takes an Array of rgba values and returns a Map with those values as keys and values as n occurences
     // valuesToIgnore = array of rgba values we want to ignore (transparent colors for example)
     return (
         arr.reduce((acc, curr) => {
